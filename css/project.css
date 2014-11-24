@@ -1,0 +1,105 @@
+/* project.css */
+body{
+padding: 0;
+margin: 0;
+overflow-y: scroll;
+font-family: Arial;
+font-size: 20px;
+background-image:url('bottlesofliquorweb.png');
+}
+
+/*top banner used id's start here*/ 
+
+#nav{
+position: relative;
+left: 0px;
+right: 0px;
+top: 0px;
+width: 100%;
+height: 70px;
+background-color: #363636;
+z-index:2;
+}
+
+.nav{
+width: 100%;
+margin: 0px;
+height: 70px;
+padding-right: 20px;
+display: inline-block;
+text-align: left;
+position: absolute;
+
+}
+.nav ul{
+list-style-type: none;
+padding-top: 5px;
+position: absolute;
+}
+.nav ul li{
+margin-right: 15px;
+display: inline-block;
+}
+
+.nav ul li a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav ul li a:hover{
+color: #8C001A;
+}
+
+.nav ul ul{
+	display: none;
+	padding-top: 30px;
+	border: 5px solid #363636;
+	border-top: none;
+	background-color: #E5C100;
+}
+
+.nav ul li:hover ul{
+	display: block;
+}
+
+
+.nav ul ul li{
+	display: block;
+	text-transform: uppercase;
+	z-index: 10;
+
+}
+
+.nav ul ul li:hover{
+	background-color: #8C001A;
+	border: 5px;
+	border-color: #363636;
+}
+/*top banner used id's stop here*/
+/*container class starts here*/
+
+.container{
+position: relative;
+padding: 40px;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.container.grey-transparent{
+background-color: #A9A9A9;
+opacity: .85;
+}
+
+.container.burgundy-solid{
+	background-color: #550404;
+}
+
+.container h1{
+	font-size: 80px;
+}
+
+/*container class ends here, for now*/
+
+
